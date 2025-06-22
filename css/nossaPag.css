@@ -1,0 +1,416 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fdfcf8;
+  color: #000;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gallery {
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.special-edition {
+  font-style: italic;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+.gallery .pequenas{
+    width: 250px;
+}
+
+
+.edicao {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  h1 {
+    font-size: 22px;
+    margin: 10px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+  }
+  
+  .sub-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 10px 0 15px;
+  }
+  
+  .highlight-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .text-block {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .side-image {
+    width: 140px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+
+  .side-image2 {
+    width: 160px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .text-content h2 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding-bottom: 5px;
+  }
+  
+  .text-content p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+  }
+
+  
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  .sub-edition {
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0 20px;
+  }
+  
+  .quote-block h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .text-section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    flex: 1;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  .img-right {
+    width: 120px;
+    border-radius: 6px;
+  }
+
+  .footer{
+      margin-bottom: 60px;
+  }
+  
+  .footer-block {
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+  }
+  
+  .footer-block h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .small-text {
+    font-size: 12px;
+    color: #555;
+  }
+
+  .fieldset-com-texto {
+    border: none; /* Remove todas as bordas do fieldset */
+    border-top: 1px solid rgb(0, 0, 0); /* Adiciona apenas a borda superior, que servirá de linha */
+  }
+  
+  .fieldset-com-texto legend {
+    /* O legend por padrão já se posiciona no meio da borda */
+    padding: 0 10px; /* Cria o espaço em branco na linha */
+    margin: 0 auto; /* Centraliza o texto na linha */
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+
+
+
+
+
+  
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .amor-section img,
+  .musica-section img {
+    width: 120px;
+    height: auto;
+    border-radius: 6px;
+    margin-right: 15px;
+  }
+  
+  .amor-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .amor-content img{
+      width: 160px;
+  }
+  
+  .curiosidade-edicao {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  .quote-section h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .quote-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .circle-img {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .local {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .quote-date {
+    font-size: 12px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .quote-text {
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  .musica-section h3 {
+    margin-top: 20px;
+  }
+  
+  .musica-content {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+  }
+
+  .musica-content {
+      font-size: 14px;
+  }
+
+  
+
+  .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .bloco img{
+      max-width: 100px;
+  } 
+ 
+  .caixa-coracao{
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .heart {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff3a7f, #ff0a6c);
+    transform: rotate(45deg);
+    position: relative;
+    box-shadow: 0 0 50px #ff006a;
+    animation: pulse 1.5s ease infinite;
+    transition: all 0.3s ease;
+  }
+  
+  .heart:hover {
+    transform: rotate(45deg) scale(1.2);
+    box-shadow: 0 0 70px #ff006a;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff3a7f, #ff0a6c);
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .heart:before {
+    top: -50px;
+    left: 0;
+  }
+  
+  .heart:after {
+    top: 0;
+    left: -50px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: rotate(45deg) scale(1);
+      box-shadow: 0 0 50px #ff006a;
+    }
+    50% {
+      transform: rotate(45deg) scale(1.1);
+      box-shadow: 0 0 70px #ff006a;
+    }
+    100% {
+      transform: rotate(45deg) scale(1);
+      box-shadow: 0 0 50px #ff006a;
+    }
+  }
+  
+  .particle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: float 1.5s ease-out forwards;
+    opacity: 0.8;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translate(0, 0) rotate(0deg) scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translate(
+          calc(var(--random-x) * 150px - 75px),
+          calc(var(--random-y) * 150px - 75px)
+        )
+        rotate(360deg) scale(0);
+      opacity: 0;
+    }
+  }
+  
+  .heart::before,
+  .heart::after {
+    animation: glow 3s linear infinite;
+  }
+  
+  @keyframes glow {
+    0% {
+      filter: drop-shadow(0 0 5px rgba(255, 58, 127, 0.6));
+    }
+    50% {
+      filter: drop-shadow(0 0 20px rgba(255, 58, 127, 0.8));
+    }
+    100% {
+      filter: drop-shadow(0 0 5px rgba(255, 58, 127, 0.6));
+    }
+  }
+
+  video{
+      margin-bottom: 50px;
+  }
+  
+  
+ 
+  
+
+  

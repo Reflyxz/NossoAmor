@@ -1,0 +1,38 @@
+.botao-proximo{
+    margin-top: 300px;
+}
+
+button{
+    position:absolute;
+    /* Espaçamento e Tamanho */
+    padding: 2px 20px; /* 15px de espaço interno em cima/baixo, 30px nos lados */
+    
+    /* Fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Fonte limpa e segura */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: white; /* Cor do texto */
+    text-align: center;
+    
+    /* Aparência */
+    background-color: #7b2cbf; /* Cor de fundo (um roxo vibrante) */
+    border: none; /* Remove a borda padrão do navegador */
+    border-radius: 50px; /* Deixa as bordas totalmente arredondadas (forma de pílula) */
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" ao passar o mouse */
+    
+    /* Efeitos e Transições */
+    transition: all 0.3s ease; /* Anima todas as propriedades em 0.3 segundos */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave para dar profundidade */
+    margin-bottom: 20px;
+  }
+
+
+  /* Media Queries para tamaños de pantalla diferentes */
+@media screen and (max-width: 400px) {
+    button{
+        padding: 8px 20px; /* 15px de espaço interno em cima/baixo, 30px nos lados */
+
+    }
+  
+  }
+

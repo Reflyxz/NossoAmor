@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                      url("img/IMG-20240929-WA0024\(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #f399fc;
+}
+
+.container {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f399fc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Entrar</button>
+    </form>
+    <div id="message"></div>
+</div>
+
+<script>
+const form = document.getElementById('loginForm');
+const message = document.getElementById('message');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita o envio padrão do formulário
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Usuário e senha de exemplo
+    if (username === "madu" && password === "eric") {
+        // --- CÓDIGO MODIFICADO AQUI ---
+        message.textContent = "Login bem-sucedido! Redirecionando...";
+        message.style.color = "#4CAF50"; // Verde
+        
+        // Aguarda 1.5 segundos antes de redirecionar para a próxima página
+        setTimeout(function() {
+            // IMPORTANTE: Troque o nome do arquivo abaixo pelo nome da sua página principal
+            window.location.href = "segunda.html"; 
+        }, 1500); // Tempo em milissegundos (1500 ms = 1.5 segundos)
+
+    } else {
+        message.textContent = "Usuário ou senha incorretos.";
+        message.style.color = "#f44336"; // Vermelho
+    }
+});
+</script>
+
+</body>
+</html>
